@@ -43,9 +43,6 @@
 
 Web system for hiring online teachers.
 
-## 🔖 Layout
-
-You can view the layout of this project by clicking [here](https://proffy-roger.herokuapp.com/)
 
 ## ⬆ Updates
 
