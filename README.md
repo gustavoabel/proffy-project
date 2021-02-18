@@ -87,7 +87,7 @@ You will need [Nodejs](https://nodejs.org/en/) and [git](https://git-scm.com/) i
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/roger3g/proffy.git
+$ https://github.com/gustavoabell/proffy-project
 
 # Access the project folder in the cmd/terminal
 $ cd proffy
