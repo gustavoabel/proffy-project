@@ -1,115 +1,121 @@
-<h1 align="center">
-  <img alt="Ícone do projeto" title="" src=".github/logo.svg" width="" />
-</h1>
-
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=author&message=gustavoabell&color=8257E5&labelColor=04D361" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=languages&message=4&color=8257E5&labelColor=04D361" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=04D361" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=version&message=1.0.0&color=8257E5&labelColor=04D361" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=platform&message=web&color=8257E5&labelColor=04D361" style="display: inline;">
+   <img src="https://github.com/Gabriel-Teixeira/Proffy/blob/master/web/src/assets/images/logo-dark.svg" alt="Proffy" width="280"/>
 </p>
 
-<div align="center">
-  <img src=".github/desktop.svg" alt="Exemplo da interface no desktop" style="width: 100%;">  
-</div>
+<h1 align="center">
+    🚀 NLW2
+</h1>
 
-## 📌 Table of Contents
+<p align="center">Aplicação da Next Level Week 2ª Edição </p>
 
-- [Technology](#-technology)
-- [Project](#-project)
-- [Layout](#-layout)
-- [Updates](#-updates)
-- [Implementation ideas](#-implementation-ideas)
-- [Directory structure](#-directory-structure)
-- [Installation](#-installation)
-- [How to contribute](#-how-to-contribute)
-- [License](#-license)
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=node&message=12.13.1&color=339933&logo=node.js" />
+  <img src="https://img.shields.io/static/v1?label=react&message=16.9.0&color=61DAFB&logo=react" />
+  <img src="https://img.shields.io/static/v1?label=react%20native&message=36.0.0&color=0088CC&logo=reactos" />
+  <img src="https://img.shields.io/badge/license-MIT-success"/>
+</p>
 
-## 🛠 Technology
+<p align="center">
+  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-pré-requisitos">Pré-Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-- **Front-End**
-  - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-  - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-  - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/Javascript)
+<h3 align="center"> 
+🚧  Finalizado  🚧
+</h3>
 
-- **Back-End**
-  - [Node.js](https://nodejs.org/en/)
-  - [Express.js](https://expressjs.com/)
-  - [Nodemon](https://nodemon.io/)
-  - [dotenv](https://www.npmjs.com/package/dotenv)
-  - [nunjucks](https://mozilla.github.io/nunjucks/)
-  
-- **Database**
-  - [sqlite-async](https://www.npmjs.com/package/sqlite-async)
+### 📎 Features 
 
-## 💻 Project
+- [x] Cadastrar aulas
+- [x] Listar aulas
+- [x] Filtrar aulas.
+- [x] Criar conexões.
+- [x] Alterar tema da aplicação
+- [x] Entrar em contato com o professor
 
-Web system for hiring online teachers.
+### 💻 Projeto
+
+Proffy é uma plataforma que conecta estudantes à professores. Projeto desenvolvido durante a semana do Next Level Week 2ª Edição. 
+
+### ✅ Demonstração
+<img src="https://github.com/Gabriel-Teixeira/Proffy/blob/master/web/src/assets/images/dashboard.PNG" />
+
+### ⚙ Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e/ou [Yarn](https://https://yarnpkg.com/) 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 
-## ⬆ Updates
-
-This project is constantly evolving, I am always testing new features on it.
-
-## 💡 Implementation ideas
-
-- [ ] Take the application to [version 2.0](https://www.figma.com/file/XITfkZAiMy8W49eaDSBBXl/Proffy-Web-2.0);
-- [ ] Exchange the database, MongoDB, PostgreSQL;
-- [ ] Improve responsiveness;
-- [ ] Refactor.
-
-## 📂 Directory structure
-
-```
-|-- .github/
-|-- public/
-  |-- assets/
-  |-- pages/
-  |-- scripts/
-  |-- styles/
-  |-- index.html
-|-- src/
-  |-- config/
-  |-- controllers/
-  |-- database/
-  |-- utils/
-  |-- routes/
-  |-- app.js
-  |-- server.js
-|-- .env
-|-- .gitignore
-|-- LICENSE.md
-|-- package.json
-|-- package-lock.json
-|-- README.md
-```
-
-## ⬇ Installation
-
-You will need [Nodejs](https://nodejs.org/en/) and [git](https://git-scm.com/) installed on your machine. Then, you can run the scripts below:
+### 📙 Rodando o Backend
 
 ```bash
-# Clone this repository
-$ https://github.com/gustavoabell/proffy-project
+# Clone este repositório
+$ git clone https://github.com/gustavoabell/proffy-project
 
-# Access the project folder in the cmd/terminal
-$ cd proffy
+# Navegue para a pasta
+$ cd backend
 
-# Install the dependencies
-$ npm install
+# Instale as dependências
+$ yarn
 
-# Run the application in development mode
-$ npm run dev
-
-# The port that the server will open will be shown on the console
+# Execute a aplicação
+$ yarn start
 ```
 
-## 🤔 How to contribute
+### 📗 Rodando o Frontend (web)
 
-1. Fork this repository;
-2. Create a branch with your feature: **`git checkout -b my-feature`**;
-3. Commit your changes: **`git commit -m 'feat: My new feature'`**;
-4. Push to your branch: **`git push origin my-feature`**.
+```bash
+# Navegue para a pasta
+$ cd web
 
-After the merge of your pull request is done, you can delete your branch.
+# Instale as dependências
+$ yarn
 
-## 📝 License
+# Execute a aplicação
+$ yarn start
+```
 
-This project is under the MIT license. See the archive [LICENSE](LICENSE.md) for more details.
+### 📘 Rodando o Mobile
+
+```bash
+# Navegue para a pasta
+$ cd mobile
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação
+$ yarn start
+```
+
+### 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- ReactJS
+- React Native
+- NodeJS
+- Typescript
+- SqLite3
+
+### 📕 Bibliotecas
+
+Esse projeto foi utilizou das seguintes lib:
+
+- Axios
+- react-icons
+- Express
+- knex
+- react-navigation
+- styled-components
+
+### 📝 Licença
+
+Esse projeto está sob a licença MIT.
+
+<hr/>
+
+Feito por Gustavo Abel.
